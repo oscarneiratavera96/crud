@@ -1,0 +1,17 @@
+.login-container {
+  display: flex;
+}
+
+.left-section {
+  flex: 60%;
+  background: linear-gradient(to bottom right, #1890ff, #096dd9);
+  min-height: 100vh;
+}
+
+.right-section {
+  flex: 40%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
