@@ -11,9 +11,19 @@ import { useDispatch } from "react-redux";
 import "../../assets/styles/TodoList.css";
 
 const TodoList: React.FC = () => {
+  /**
+   * UseState que contiene los todos
+   */
   const [todos, setTodos] = useState<Todo[]>([]);
 
+  /**
+   * Hook de react-router-dom que permite navegar entre rutas.
+   */
   const navigate = useNavigate();
+
+  /**
+   * Hook de react-redux que permite hacer dispatch de acciones.
+   */
   const dispatch = useDispatch();
 
   /**
